@@ -13,7 +13,7 @@ const Home = async () => {
         <div className={styles.container}>
             <div id="intro" className={styles.introContainer}>
                 <div className={styles.introText}>
-                    <h1 className={styles.titles}>Hi There, I'm Irfan</h1>
+                    <h1 className={styles.titles}>Hi There, I&apos;m Irfan</h1>
                     <p className={styles.subtitles}>Welcome to my portfolio</p>
                 </div>
             </div>
