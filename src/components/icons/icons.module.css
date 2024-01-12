@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+}
+
+.link{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    color: #0A0A0A;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .container{
+        gap: 20px;
+    }
+}

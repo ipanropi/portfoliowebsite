@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    height: 100%;
+}
+
+.title{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.email{
+    font-size: 5rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .email {
+        font-size: 3rem;
+    }
+}

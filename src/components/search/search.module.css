@@ -1,0 +1,21 @@
+.container{
+}
+
+.input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: #0a0a0a solid 1px;
+    padding: 10px;
+}
+
+.button{
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: #0a0a0a solid 1px;
+    border-left: 0;
+}
+
+.form{
+    display: flex;
+}

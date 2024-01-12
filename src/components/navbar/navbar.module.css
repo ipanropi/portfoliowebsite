@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafaf9;
+    padding: 20px;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 24px;
+    text-decoration: none;
+    font-style: normal;
+    color: #0a0a0a;
+}
+
+.menuContainer{
+    display: flex;
+    gap: 20px;
+}
