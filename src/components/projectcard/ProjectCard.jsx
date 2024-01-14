@@ -39,7 +39,7 @@ const ProjectCard = ({data, text, isPreview}) => {
                 {filteredData.length > 0 ? (filteredData.map((project) => {
                     return (
                             <div key={project.name} className={styles.card}>
-                                <Link className={styles.links} href={`/project/${project._id}`} key={project.id}>
+                                <Link className={styles.links} href={`/project/${project._id}`} key={project._id}>
                                 <div className={styles.imageContainer}>
                                     <Image
                                         className={styles.image}
