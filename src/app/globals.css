@@ -8,11 +8,11 @@ body {
 }
 
 .container {
-    font-family: 'Roboto', sans-serif;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
     color: #0a0a0a;
     font-size: 16px;
     font-weight: 700;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

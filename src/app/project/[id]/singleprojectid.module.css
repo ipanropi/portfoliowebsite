@@ -2,28 +2,43 @@
     display:flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: space-around;
-    height: 100vh;
-    width: 90%;
+    justify-content: flex-start;
+    min-height: 100vh;
+    max-width: 680px;
     margin: auto;
+    padding: 10px;
 }
 
-.titleContainer{
+.titleContainer h1{
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 32px;
+    font-weight: 700;
 }
 
-.descriptionContainer{
-    text-align: justify;
+.descriptionContainer p {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.5;
 }
+
+.techContainer p {
+    /* Add styles for the paragraph */
+    margin: 0 0 10px 0; /* Example: add some bottom margin */
+    font-weight: bold; /* If you want it to stand out */
+}
+
 
 .techContainer ul{
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
 }
 
 .techContainer li{
+    font-weight: normal;
+    font-size: 16px;
     list-style: none;
     margin: 5px;
 
