@@ -1,0 +1,75 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    max-height: 100vh;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+}
+
+.titleContainer{
+    text-align: center;
+    border-bottom: 1px solid darkgrey;
+    margin-bottom: 10px;
+}
+
+
+
+.form {
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.upper{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.middle{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addTech{
+    display:flex;
+    gap: 10px;
+}
+
+.displayTech{
+    display:flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.projectNameInput, .projectDescriptionInput, .projectTechInput{
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.addTechButton, .removeTechButton{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.bottom{
+    display:flex;
+    justify-content: flex-end;
+}
+.submitProjectButton{
+    min-width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.displayTech{
+    font-size: 12px;
+    text-transform: capitalize;
+}
